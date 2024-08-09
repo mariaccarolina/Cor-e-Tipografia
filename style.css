@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 95vh;
+}
+main p {
+  font-family: "Playfair Display", serif;
+}
+
+h1 {
+  color: rgb(235, 62, 194);
+  text-align: center;
+  font-family: "Grey Qo", cursive;
+}
+
+h2 {
+  color: gold;
+}
+
+section {
+  margin: 10px;
+  padding-left: 20px;
+}
+
+.rgb {
+  border: solid tomato;
+}
+.rgb .vermelho {
+  color: rgb(255, 0, 0);
+}
+.rgb .verde {
+  color: rgb(0, 255, 0);
+}
+.rgb .azul {
+  color: rgb(0, 0, 255);
+}
+
+.rgba {
+  border: purple solid;
+}
+.rgba p {
+  color: rgba(0, 0, 255, 0.2);
+}
+
+.hexa {
+  border: red solid;
+}
+.hexa p {
+  background-color: #00ff00;
+}
+
+footer {
+  background-color: black;
+  color: aliceblue;
+  padding: 15px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
